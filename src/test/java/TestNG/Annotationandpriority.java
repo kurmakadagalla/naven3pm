@@ -17,7 +17,7 @@ public class Annotationandpriority {
 	{
 		driver=new ChromeDriver();
 		driver.get("https://www.demo.guru99.com/v4");
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+	
 	}
 	
 	@Test(priority=2, dependsOnMethods= {"openApp"})
